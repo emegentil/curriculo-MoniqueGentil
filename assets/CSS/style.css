@@ -1,6 +1,6 @@
 body{
-  font-family:'Lato', sans-serif;
-  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+    margin: 0;
   padding: 0;
   text-align: center;
   
@@ -10,7 +10,7 @@ ul,ol li{
   list-style: none;
 }
 
-.menu > ul > li:first-child {
+.menu > ul > li:last-child {
   font-weight: bold;
 }
 
@@ -29,14 +29,14 @@ a:hover{
   background-color: #ffffff73;
   display: flex;
   justify-content: space-around;
-  padding: 17px 99px 10px 0px;
+  padding: 0px 0px 0px 0;
   
 }
 
 .menu li{
-  display: inline-flex;
-  padding-right: 49px;
-  padding-left: 35px;
+  display: initial;
+  padding-right: 47px;
+  padding-left: 36px;
 }
 
 .menu img{
@@ -68,7 +68,6 @@ a:hover{
 }
 
 .box1{
-  background-color: #efefef;
   justify-content: center;
   font-size: 25px;
   margin-right: 354px;
@@ -85,18 +84,9 @@ a:hover{
 
 
 .img-study{
-  border-image: 0%;
-  width: 400px;
-}
-
-.img-work{
-  border-image: 0%;
-  width: 400px;
-}
-
-.img-live{
-  border-image: 0%;
-  width: 355.5px;
+  border-image: 0;
+  width: 370px;
+  padding-left: 30px;
 }
 
 /* .container{
@@ -105,12 +95,113 @@ a:hover{
   
 } */
 
+.certifcados{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between
+}
+
+.certificados-box{
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 17px;
+  margin-left: -10%;
+  margin-right: 0%;
+}
+
+.box2{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.formacoes-certificados{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1%;
+  margin-right: 24px;
+}
+
+.experiencia{
+  display: flex;
+  flex-direction: row;  
+}
+
+.experiencia-box{
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-left: -12%;
+  margin-right: 0%;
+  margin-top: 3px;
+  margin-top: 11px;
+  text-align: left;
+  font-size: 15px;
+ 
+}
+
+.box3{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.experiencia-data{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14%;
+  margin-top: 1%;
+  justify-content: space-around;
+  margin-right: 4%;
+  
+}
+
+.img-work{
+  border-image: 0%;
+  width: 400px;
+  padding-left: 0;
+  margin-left: 17%;
+  
+}
+
+
+.horas-vagas{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 18px;
+}
+
+.box4{
+  display: flex;
+  font-size: 15px;
+}
+
+.img-live{
+  width: 300px;
+  padding-left: 0;
+}
+
+.hobbies{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14%;
+  margin-top: 1%;
+  justify-content: space-around;
+  margin-right: 4%;
+  
+}
+
 .contato{
   background-color: #efefef;
   justify-content: center;
-  font-size: 25px;
-  margin-right: 354px;
-  margin-left: 354px;
-  
-
+  font-size: 15px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 1%;
+  margin-top: 0;
 }
